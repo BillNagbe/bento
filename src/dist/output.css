@@ -606,24 +606,8 @@ body {
   }
 }
 
-.absolute{
-  position: absolute;
-}
-
 .relative{
   position: relative;
-}
-
-.top-10{
-  top: 2.5rem;
-}
-
-.top-5{
-  top: 1.25rem;
-}
-
-.top-2{
-  top: 0.5rem;
 }
 
 .row-start-1{
@@ -636,14 +620,6 @@ body {
 
 .mt-1{
   margin-top: 0.25rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
 }
 
 .mt-2{
@@ -663,10 +639,6 @@ body {
   height: 58.333333%;
 }
 
-.h-24{
-  height: 6rem;
-}
-
 .h-20{
   height: 5rem;
 }
@@ -679,20 +651,12 @@ body {
   width: 16.666667%;
 }
 
-.w-4{
-  width: 1rem;
-}
-
-.w-3\/4{
+.w-9\/12{
   width: 75%;
 }
 
 .w-9{
   width: 2.25rem;
-}
-
-.w-9\/12{
-  width: 75%;
 }
 
 .grid-cols-1{
@@ -727,14 +691,6 @@ body {
   gap: 0.25rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -745,10 +701,6 @@ body {
 
 .rounded-md{
   border-radius: 0.375rem;
-}
-
-.rounded-sm{
-  border-radius: 0.125rem;
 }
 
 .bg-black50{
@@ -776,10 +728,6 @@ body {
   background-color: rgb(255 203 107 / var(--tw-bg-opacity, 1));
 }
 
-.p-2{
-  padding: 0.5rem;
-}
-
 .p-1{
   padding: 0.25rem;
 }
@@ -803,10 +751,6 @@ body {
   padding-top: 0.75rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -824,30 +768,12 @@ body {
   line-height: 1.25rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-fontBase{
-  font-size: 18px;
+.font-light{
+  font-weight: 300;
 }
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-thin{
-  font-weight: 100;
-}
-
-.font-light{
-  font-weight: 300;
 }
 
 .italic{

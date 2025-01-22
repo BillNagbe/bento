@@ -606,12 +606,48 @@ body {
   }
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
+.top-5{
+  top: 1.25rem;
+}
+
+.top-2{
+  top: 0.5rem;
+}
+
 .row-start-1{
   grid-row-start: 1;
 }
 
 .row-end-1{
   grid-row-end: 1;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .flex{
@@ -622,9 +658,17 @@ body {
   display: grid;
 }
 
-.size-8\/12{
-  width: 66.666667%;
-  height: 66.666667%;
+.size-7\/12{
+  width: 58.333333%;
+  height: 58.333333%;
+}
+
+.h-24{
+  height: 6rem;
+}
+
+.h-20{
+  height: 5rem;
 }
 
 .min-h-screen{
@@ -633,6 +677,22 @@ body {
 
 .w-2\/12{
   width: 16.666667%;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-3\/4{
+  width: 75%;
+}
+
+.w-9{
+  width: 2.25rem;
+}
+
+.w-9\/12{
+  width: 75%;
 }
 
 .grid-cols-1{
@@ -655,20 +715,40 @@ body {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-around{
   justify-content: space-around;
 }
 
-.justify-evenly{
-  justify-content: space-evenly;
+.gap-1{
+  gap: 0.25rem;
 }
 
 .gap-4{
   gap: 1rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.rounded-sm{
+  border-radius: 0.125rem;
 }
 
 .bg-black50{
@@ -686,13 +766,45 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-yellow100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 238 225 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 203 107 / var(--tw-bg-opacity, 1));
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-1{
+  padding: 0.25rem;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-3{
   padding-top: 0.75rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-center{
@@ -700,11 +812,50 @@ body {
 }
 
 .text-fontSmall{
-  font-size: 9px;
+  font-size: 0.4rem;
 }
 
-.text-h1{
+.text-fontsemibold{
+  font-size: 0.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-fontBase{
   font-size: 18px;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.font-thin{
+  font-weight: 100;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.leading-4{
+  line-height: 1rem;
 }
 
 .tracking-wider{
@@ -714,4 +865,9 @@ body {
 .text-whitepure{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-yellow500{
+  --tw-text-opacity: 1;
+  color: rgb(255 203 107 / var(--tw-text-opacity, 1));
 }

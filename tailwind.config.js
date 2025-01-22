@@ -10,13 +10,14 @@ module.exports = {
       whitepure: "#fff",
       black50: "#121212"
     },
-
-    fontSize: {
-      fontBase: "18px",
-      fontSmall: "9px",
-      h1: "18px"
+    extend: {
+      fontSize: {
+        fontBase: "18px",
+        fontSmall: "0.4rem",
+        fontsemibold: "0.5rem",
+        h1: "18px"
+      }
     },
-    extend: {},
   },
   plugins: [],
 }
